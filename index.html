@@ -11,27 +11,20 @@
             box-sizing: border-box;
         }
 
-        html {
+        html, body {
             width: 100%;
-            height: 100%;
+            overflow-x: hidden; /* hanya blokir scroll horizontal */
         }
 
         body {
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
             background-color: #000;
-            display: block; /* hapus flex yang lama */
+            display: block;
         }
 
         img {
             width: 100%;
-            height: 100vh;
-            object-fit: cover;
-            object-position: center;
+            height: auto;
             display: block;
-            border: none;
-            outline: none;
         }
     </style>
 </head>
